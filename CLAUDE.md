@@ -3,7 +3,7 @@
 Bu proje, Meta & Google Ads için kreatif/metin üretimi, otomatik kampanya kurulumu
 ve performans analizini tek panelde toplayan abonelik bazlı bir SaaS'tır.
 **Tek hakikat kaynağı ürün niyeti için @intent.md** — çelişki olursa intent.md kazanır.
-Tasarım/ürün mimarisi kararları için **@DESIGN.md** ("Command Deck" tasarım sistemi).
+Tasarım/ürün mimarisi kararları için **@DESIGN.md** ("Komuta Merkezi" tasarım sistemi).
 
 ## Proje hafızası (.memory/)
 Kalıcı, git ile saklanan ajan hafızası `.memory/` içindedir (agentmemory modelinin

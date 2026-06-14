@@ -12,13 +12,13 @@ export default function Home() {
       </div>
 
       {/* Display başlık */}
-      <h1 className="max-w-3xl text-[40px] font-semibold leading-[44px] tracking-[-0.02em] text-on-surface">
-        Komuta güvertesi. Bütçeyi pilotla.
+      <h1 className="max-w-3xl text-[40px] font-bold leading-[44px] tracking-[-0.02em] text-on-surface">
+        Komuta Merkezi. Bütçeyi pilotla.
       </h1>
       <p className="mt-4 max-w-2xl text-base leading-6 text-on-surface-variant">
         Meta &amp; Google Ads için kreatif üretimi, kampanya kurulumu ve
-        performans analizi — tek bir mission-control panelinde. Para harcatan her
-        eylem görsel olarak yavaşlatılır; güvenli varsayılan{" "}
+        performans analizi — tek bir komuta merkezinde. Para harcatan her eylem
+        görsel olarak yavaşlatılır; güvenli varsayılan{" "}
         <span className="font-medium text-on-surface">PAUSED</span> sakindir.
       </p>
 

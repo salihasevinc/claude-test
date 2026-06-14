@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AdCommander — Command Deck",
+  title: "AdCommander — Komuta Merkezi",
   description:
-    "Meta & Google Ads için kreatif üretimi, kampanya kurulumu ve performans analizini tek panelde toplayan komuta güvertesi.",
+    "Meta & Google Ads için kreatif üretimi, kampanya kurulumu ve performans analizini tek panelde toplayan komuta merkezi.",
 };
 
 export default function RootLayout({

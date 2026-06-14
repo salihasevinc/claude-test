@@ -6,9 +6,12 @@
 - 5 adımlık "ayağa kaldırma" planı yürürlükte. **Adım 1 TAMAM:** Next.js 15 (App
   Router) + TS strict + Tailwind v4 + ESLint kuruldu; DESIGN.md token'ları
   `src/app/globals.css` `@theme`'e döküldü; Inter + JetBrains Mono next/font ile
-  yüklendi; Command Deck görünümlü ana sayfa (`src/app/page.tsx`) çalışıyor.
+  yüklendi; "Komuta Merkezi" görünümlü ana sayfa (`src/app/page.tsx`) çalışıyor.
   `pnpm typecheck` + `pnpm build` temiz, `pnpm dev` HTTP 200.
 - Aktif geliştirme branch'i: **main**. Paket yöneticisi: pnpm.
+- **DESIGN.md yenilendi (Command Deck → Komuta Merkezi):** token'lar/kod/hafıza yeni
+  palete (mavi #2563EB, yeşil #10B981, kırmızı #EF4444, lacivert #0F172A, bg #FCF8FA)
+  ve 8px radius / 240px sidebar'a hizalandı. Caution amber + JetBrains Mono korundu.
 
 ## 5 adım ilerleme
 1. ✅ Temel + tasarım token'ları

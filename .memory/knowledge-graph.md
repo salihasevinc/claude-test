@@ -9,7 +9,7 @@
 - **LLM/Görsel API** (hazır üretim sağlayıcıları)
 - **Kampanya** (DRAFT/PAUSED/PENDING/LIVE/ERROR/ROLLED BACK durumları)
 - **Reklam Hesabı** (OAuth ile bağlı), **Token** (şifreli, en az yetki)
-- **Command Deck** (tasarım sistemi)
+- **Komuta Merkezi** (Command Center — tasarım sistemi; eski "Command Deck" arşiv)
 - Dosyalar: **intent.md**, **DESIGN.md**, **CLAUDE.md**, **.memory/**
 
 ## İlişkiler
@@ -19,6 +19,6 @@
 - Ajans/Freelancer —OAuth ile bağlar→ Reklam Hesabı —tutar→ Token
 - AdCommander —kurar→ Kampanya (DAİMA PAUSED başlar) —deploy edilir→ Meta+Google
 - Kampanya —geçer→ policy ön-kontrol + insan onayı (yaz-onayla) —saklar→ rollback
-- Command Deck —görselleştirir→ Guardrail'lar (PAUSED sakin, SANDBOX/LIVE rozeti, sürtünme)
+- Komuta Merkezi —görselleştirir→ Guardrail'lar (PAUSED sakin, SANDBOX/LIVE rozeti, sürtünme)
 - intent.md —kaynaktır→ DESIGN.md, CLAUDE.md, .memory/ (türevler)
 - .memory/ —izler→ agentmemory modeli (dosya tabanlı, git-kalıcı)

@@ -20,24 +20,25 @@ Meta/Google dışı mecralar; otomatik optimizasyon; kendi üretici model eğiti
 ≤10 dk hesap bağlama · ≥5 kreatif+metin varyasyonu · ≤5 dk kurulum ·
 günde 1 metrik çekimi · lansmandan 90 gün içinde ≥10 ödeyen abone.
 
-## Tasarım sistemi kararları ("Command Deck" — DESIGN.md)
-- **Renk üç dünya, asla karışmaz:** marka (Command Indigo `#3A36DB`) = eylem;
-  pozitif (`#0E9F6E` yeşil) = iyi performans; hata (`#DC2B3D` kırmızı) = kötü/yıkıcı.
-  Marka indigosu ASLA "performans iyi" anlamına gelmez.
-- Diğer semantik: warning/pending `#C77700` (amber), info `#1B7FD4` (mavi).
-- **Tipografi:** Inter (arayüz) + JetBrains Mono (yalnız sayılar/ID). Tüm sayılar
-  **tabular (tnum) + sağa hizalı** — kolonlar dikey hizalanır.
-- **PAUSED sakin/nötr** görünür (güvenli varsayılan alarm rengi taşımaz). Kampanya
-  yaşam döngüsü: DRAFT → PAUSED → PENDING → LIVE → ERROR / ROLLED BACK.
-- Para-harcatan/geri-alınamaz eylem **tek tıkla sunulmaz** (onay kapısı).
-- Renge **tek başına** anlam yüklenmez — ikon/biçim/işaret (▲▼, nokta) ile yedeklenir
-  (renk körü güvenliği). WCAG AA korunur; solid renk üstüne küçük beyaz metin yok,
-  `*-container` + `on-*-container` çifti kullanılır.
-- Veri enstrümanı estetiği: glassmorphism/gradyan/ağır gölge YOK; katmanlar 1px
-  saç-teli `outline` ile ayrılır. Klavye-öncelikli (⌘K her yerde).
-- Düzen: 4px ızgara, sol ray 248px, üst çubuk 56px, içerik max 1440px, satır 44px
-  (compact 36px). Hesap değiştirici birinci sınıf öğe.
-- Aynı metrik üründe her yerde aynı renkte (spend=indigo, revenue=yeşil, vb.).
+## Tasarım sistemi kararları ("Komuta Merkezi / Command Center" — DESIGN.md, 2026-06-14 yenilendi)
+> DESIGN.md tümden sadeleştirildi (eski "Command Deck"/indigo arşivlendi).
+- **Renk (anlam = renk):** primary mavi `#2563EB` = eylem/link/aktif; success
+  `#10B981` = iyi performans/Apply; error `#EF4444` = hata/durdurulan reklam;
+  neutral koyu lacivert `#0F172A` = header/sidebar/ana metin. Arka plan `#FCF8FA`,
+  yüzey `#FFFFFF`, kenarlık `#E2E8F0`.
+- **Korunan (guardrail gereği, kullanıcı kararı):** caution amber `#D97706`
+  (SANDBOX & PENDING REVIEW) + container; ayrı info tonu `#0284C7`.
+- **Tipografi:** Inter (arayüz; başlıklar 700+ ağırlık) + JetBrains Mono (sayı/ID,
+  korundu). Sayılar tabular (tnum).
+- **Bileşen:** radius standart **8px**; gölge düz/`shadow-sm`; ikon Material outline;
+  kart = beyaz zemin + ince gri kenarlık.
+- **Düzen:** desktop sidebar **240px** (eski 248), esnek ana içerik; 4px spacing
+  (4·8·12·16·24·32·48); sayfa kenar padding ≥24px.
+- **Guardrail-UI korunur (kaynak intent.md/CLAUDE.md):** PAUSED sakin/nötr; kampanya
+  yaşam döngüsü DRAFT→PAUSED→PENDING→LIVE→ERROR/ROLLED BACK; para-harcatan eylem
+  tek tıkla değil (yaz-onayla); SANDBOX/LIVE her ekranda; renge tek başına anlam yok
+  (ikon/işaret ile yedekle). Yeni DESIGN.md bunları yazmasa da kaldırılmadı.
+- Aynı metrik üründe her yerde aynı renkte (spend=mavi, revenue=yeşil, vb.).
 
 ## intent.md yaşam döngüsü
 Oluştur → Tartış → Arşivle. Açık uçlar: Sahip adı ve tarih placeholder; "Tartış"

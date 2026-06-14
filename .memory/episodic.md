@@ -18,3 +18,7 @@
 - "Ayağa kaldırma" için 5 adımlık plan onaylandı (her adım lokalde çalışır/görünür).
   **Adım 1 tamamlandı:** Next.js 15 + TS strict + Tailwind v4 iskelesi, DESIGN.md
   token'ları, Inter/JetBrains Mono, Command Deck ana sayfası. build/typecheck/dev temiz.
+- **DESIGN.md tümden yenilendi** (kullanıcı): "Command Deck" → sade "Komuta Merkezi".
+  Retheme yapıldı: globals.css token'ları, page.tsx, CLAUDE.md ve .memory yeni palete
+  (mavi/yeşil/kırmızı/lacivert, 8px radius, 240px sidebar) hizalandı. Kullanıcı kararı:
+  caution amber (SANDBOX/PENDING) + JetBrains Mono korundu; guardrail-UI'lar kaldırılmadı.

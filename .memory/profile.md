@@ -3,7 +3,8 @@
 ## Proje
 **AdCommander** — Meta & Google Ads için kreatif/metin üretimi, otomatik kampanya
 kurulumu ve performans analizini tek panelde toplayan, aylık abonelikli SaaS.
-Greenfield (sıfırdan kuruluyor). Estetik kimliği: **"Command Deck"** mission-control.
+Greenfield (sıfırdan kuruluyor). Estetik kimliği: **"Komuta Merkezi / Command Center"**
+(güven verici, profesyonel, veri odaklı, minimalist — DESIGN.md 2026-06-14 yenilendi).
 
 ## Birincil kullanıcı
 Çok hesap yöneten küçük/orta ajanslar ve freelance performans uzmanları
@@ -18,7 +19,7 @@ Greenfield (sıfırdan kuruluyor). Estetik kimliği: **"Command Deck"** mission-
 
 ## Anahtar dosyalar (hakikat kaynakları)
 - `intent.md` — niyet sözleşmesi; ürün niyetinde tek hakikat kaynağı (çelişkide kazanır).
-- `DESIGN.md` — "Command Deck" tasarım sistemi (renk/tipo/bileşen token'ları + kurallar).
+- `DESIGN.md` — "Komuta Merkezi" tasarım sistemi (renk/tipo/bileşen token'ları + kurallar).
 - `CLAUDE.md` — Claude için oturum yönergeleri + guardrail'lar; `@intent.md` import eder.
 - `.memory/` — bu kalıcı hafıza klasörü.
 
