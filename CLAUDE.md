@@ -3,6 +3,14 @@
 Bu proje, Meta & Google Ads için kreatif/metin üretimi, otomatik kampanya kurulumu
 ve performans analizini tek panelde toplayan abonelik bazlı bir SaaS'tır.
 **Tek hakikat kaynağı ürün niyeti için @intent.md** — çelişki olursa intent.md kazanır.
+Tasarım/ürün mimarisi kararları için **@DESIGN.md** ("Command Deck" tasarım sistemi).
+
+## Proje hafızası (.memory/)
+Kalıcı, git ile saklanan ajan hafızası `.memory/` içindedir (agentmemory modelinin
+dosya tabanlı uyarlaması). **Oturum başında @.memory/profile.md ve @.memory/semantic.md
+oku.** Görev ilgiliyse `.memory/working.md`, `procedural.md`, `knowledge-graph.md`'ye bak.
+Yeni kalıcı gerçek/karar/akış öğrenince ilgili katmanı güncelle. Protokol:
+@.memory/README.md.
 
 ## ⚠️ Guardrail'lar (uyulması zorunlu — gerçek para & hesap riski)
 - **NEVER** bir kampanyayı otomatik "aktif/yayında" başlatma. Kampanyalar DAİMA
