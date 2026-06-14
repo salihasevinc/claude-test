@@ -15,3 +15,6 @@
   incelendi ve hafızaya işlendi.
 - `agentmemory` modeli incelendi; ephemeral ortam nedeniyle **dosya tabanlı `.memory/`**
   adaptasyonu kuruldu (4 katman + profile + knowledge-graph) ve öğrenilenlerle dolduruldu.
+- "Ayağa kaldırma" için 5 adımlık plan onaylandı (her adım lokalde çalışır/görünür).
+  **Adım 1 tamamlandı:** Next.js 15 + TS strict + Tailwind v4 iskelesi, DESIGN.md
+  token'ları, Inter/JetBrains Mono, Command Deck ana sayfası. build/typecheck/dev temiz.

@@ -3,16 +3,24 @@
 > Volatil. En güncel durum; iş ilerledikçe üzerine yazılır.
 
 ## Şu anki durum
-- Proje hâlâ **kod öncesi**: intent.md, DESIGN.md, CLAUDE.md ve `.memory/` mevcut;
-  henüz uygulama iskelesi (Next.js/TS) kurulmadı.
-- Aktif geliştirme branch'i: **main**.
+- 5 adımlık "ayağa kaldırma" planı yürürlükte. **Adım 1 TAMAM:** Next.js 15 (App
+  Router) + TS strict + Tailwind v4 + ESLint kuruldu; DESIGN.md token'ları
+  `src/app/globals.css` `@theme`'e döküldü; Inter + JetBrains Mono next/font ile
+  yüklendi; Command Deck görünümlü ana sayfa (`src/app/page.tsx`) çalışıyor.
+  `pnpm typecheck` + `pnpm build` temiz, `pnpm dev` HTTP 200.
+- Aktif geliştirme branch'i: **main**. Paket yöneticisi: pnpm.
 
-## Açık uçlar / sonraki adım adayları
-- `intent.md` netleştirme: Sahip adı + tarih placeholder; "Tartış" aşamasına geçiş.
-- Proje iskelesini kurma (Next.js App Router + TS + Postgres scaffolding).
-- Guardrail pekiştirme: kritik kuralları `.claude/settings.json` hook + permission
-  deny ile deterministik hale getirme (paused, sır commit'leme, vb.).
-- DESIGN.md token'larını koda dökme (tema/tasarım token dosyaları) — iskele sonrası.
+## 5 adım ilerleme
+1. ✅ Temel + tasarım token'ları
+2. ⬜ Kokpit kabuğu (sol ray 248px, üst çubuk 56px, env rozeti, ⌘K, routing)
+3. ⬜ Dashboard: KPI döşemeleri + çoklu-hesap performans tablosu (mock veri-erişim katmanı)
+4. ⬜ Kampanya yaşam döngüsü + oluşturma akışı (varyasyon üretimi mock, yaz-onayla modalı, PAUSED)
+5. ⬜ Postgres (Prisma) + seed + mock katmanı DB'ye geçiş + test/README
+
+## Açık uçlar (sonraya)
+- `intent.md` netleştirme (sahip/tarih, "Tartış" aşaması) — ertelendi.
+- Guardrail pekiştirme: `.claude/settings.json` hook + permission deny — sonraki faz.
+- Gerçek Meta/Google API entegrasyonu: API onayı gerektiren ayrı faz, 5 adım dışı.
 
 ## Hatırlatma
 Kesin paket/ORM seçimleri henüz yapılmadı. Yeni bilgi geldikçe semantic.md ve
